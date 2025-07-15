@@ -6,16 +6,23 @@ body {
   color: #1B3A4B;
 }
 
+.logo {
+  height: 80px;
+  margin-right: 20px;
+}
+
 header.topo {
-  background-color: #1B3A4B;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  padding: 15px 30px;
+  background-color: #1B3A4B;
+}
+
+header.topo nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 <header class="topo">
