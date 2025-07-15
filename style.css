@@ -18,24 +18,16 @@ header.topo {
   z-index: 1000;
 }
 
-.logo {
-  height: 80px;
-  margin-right: 20px;
-}
-
-header.topo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  background-color: #1B3A4B;
-}
-
-header.topo nav {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+<header class="topo">
+  <div style="display: flex; align-items: center;">
+    <img src="logo.png" alt="Logo Paulo Ventura" class="logo">
+  </div>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#programas">Programas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
 
 
 nav a {
