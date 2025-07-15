@@ -19,8 +19,24 @@ header.topo {
 }
 
 .logo {
-  height: 50px;
+  height: 80px;
+  margin-right: 20px;
 }
+
+header.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1B3A4B;
+}
+
+header.topo nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 
 nav a {
   color: #F4F4F4;
